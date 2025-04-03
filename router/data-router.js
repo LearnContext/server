@@ -9,4 +9,4 @@ router.route('/app').get(appController.getAppData);
 router.route('/courses').get(courseController.getAllCourses);
 router.route('/courses/:id').get(courseController.getCourseById);
 
-module.exports = router; 
+module.exports = router;
