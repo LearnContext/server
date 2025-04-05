@@ -1,8 +1,8 @@
 const UserModel = require('../models/user-model');
 
-const Home = async (req, res) => {
+const App = async (req, res) => {
     try {
-        res.status(200).send('Hello AUTH');
+        res.status(200).send('Hello, Welcome to the LearnContext server!');
     } catch (error) {
         console.log(error);
     }
@@ -90,4 +90,4 @@ const UserData = async (req, res) => {
     }
 }
 
-module.exports = { Home, Register, Login, UserData}; 
+module.exports = { App, Register, Login, UserData}; 
